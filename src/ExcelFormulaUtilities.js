@@ -13,6 +13,9 @@
  *
  * Based on Ewbi's Go Calc Prototype Excel Formula Parser. [http://ewbi.blogs.com/develops/2004/12/excel_formula_p.html]
  */ (function () {
+    if (typeof window === 'undefined') {
+      window = root;
+    }
     var excelFormulaUtilities = window.excelFormulaUtilities = window.excelFormulaUtilities || {},
     core = window.excelFormulaUtilities.core,
         formatStr = window.excelFormulaUtilities.string.formatStr,
