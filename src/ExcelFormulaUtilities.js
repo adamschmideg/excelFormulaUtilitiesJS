@@ -1112,4 +1112,6 @@
     var formula2JavaScript = excelFormulaUtilities.formula2JavaScript = function (formula) {
         return formula2CSharp(formula).replace('==', '===');
     }
+
+    excelFormulaUtilities.getTokens = getTokens;
 }());

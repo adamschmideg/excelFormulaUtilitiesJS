@@ -1,6 +1,6 @@
 {
   "author": "Josh Bennett (http://joshbennett.me/)",
-  "name": "excelFormulaUtilities",
+  "name": "excel-formula",
   "description": "Methods to beautify an excel formula and convert it to JavaScript or C#",
   "version": "0.9.4",
   "homepage": "http://excelformulabeautifier.com/",
@@ -10,10 +10,11 @@
   "repository": {
     "url": "git://github.com/joshatjben/excelFormulaUtilitiesJS.git"
   },
-  "keyword": ["excel", "formula"],
+  "keyword": ["excel", "formula", "convert"],
   "scripts": {
     "test": "qunit -t ./test/ExcelFormulaUtilities.test.js -d ./src/core.js -c ./src/ExcelFormulaUtilities.js"
   },
+  "main": "./src/main",
   "dependencies": {},
   "devDependencies": {
     "qunit": "0.5.x",
